@@ -1,6 +1,6 @@
-##When to Choose Which Structure
+# When to Choose Which Structure
 
-Use Arrays When:
+# Use Arrays When:
 -You know the maximum size in advance
 -You need random access by index
 -Memory efficiency is critical
