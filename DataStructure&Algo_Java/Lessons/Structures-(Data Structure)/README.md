@@ -1,26 +1,26 @@
 # When to Choose Which Structure
 
-## Use Arrays When:
+## 📍Use Arrays When:
 - You know the maximum size in advance
 - You need random access by index
 - Memory efficiency is critical
 
-## Use Linked Lists When:
+## 📍Use Linked Lists When:
 - You frequently insert/delete from the middle
 - Size changes frequently
 - You don't need random access
 
-## Use Hash Tables When:
+## 📍Use Hash Tables When:
 - You need the fastest possible lookups
 - Order doesn't matter
 - You have a good hash function
 
-## Use Trees When:
+## 📍Use Trees When:
 - You need sorted data
 - You need range queries
 - You want guaranteed O(log n) performance
 
-## Use Graphs When:
+## 📍Use Graphs When:
 - You're modeling relationships
 - You need pathfinding
 - You're working with networks
