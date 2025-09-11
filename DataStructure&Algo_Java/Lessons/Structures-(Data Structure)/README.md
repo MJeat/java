@@ -25,14 +25,17 @@
 - You need pathfinding
 - You're working with networks
 
-=======================================================
+==========================================================================
 
 # Memory Complexities
 ## *Structure	Space	Notes*
-Array	O(n)	Contiguous memory
-LinkedList	O(n)	Extra pointers (next/prev)
-Hash Table	O(n)	Load factor affects performance
-Binary Tree	O(n)	. Each node has pointers
-Graph	O(V+E)	Depends on representation
 
-=======================================================
+|   Structure  |    Time Complexity    |            Description          |
+|--------------|-----------------------|---------------------------------|
+| Array        | O(n)                  | Contiguous memory               |
+| LinkedList   | O(n)                  | Extra pointers (next/prev)      |
+| Hash Table   | O(n)                  | Load factor affects performance |
+| Binary Tree  | O(n)                  | Each node has pointers          |
+| Graph        | O(V+E)                | Depends on representation       |
+
+==========================================================================
