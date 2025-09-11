@@ -1,9 +1,9 @@
 # When to Choose Which Structure
 
-# Use Arrays When:
--You know the maximum size in advance
--You need random access by index
--Memory efficiency is critical
+## Use Arrays When:
+- You know the maximum size in advance
+- You need random access by index
+- Memory efficiency is critical
 
 Use Linked Lists When:
 *You frequently insert/delete from middle
