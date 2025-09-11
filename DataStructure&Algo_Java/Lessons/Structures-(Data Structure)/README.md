@@ -6,9 +6,9 @@ Use Arrays When:
 -Memory efficiency is critical
 
 Use Linked Lists When:
--You frequently insert/delete from middle
--Size changes frequently
--You don't need random access
+*You frequently insert/delete from middle
+*Size changes frequently
+*You don't need random access
 
 Use Hash Tables When:
 -You need fastest possible lookups
