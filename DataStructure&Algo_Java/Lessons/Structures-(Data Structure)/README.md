@@ -5,34 +5,34 @@
 - You need random access by index
 - Memory efficiency is critical
 
-Use Linked Lists When:
-*You frequently insert/delete from middle
-*Size changes frequently
-*You don't need random access
+## Use Linked Lists When:
+- You frequently insert/delete from the middle
+- Size changes frequently
+- You don't need random access
 
-Use Hash Tables When:
--You need fastest possible lookups
--Order doesn't matter
--You have good hash function
+## Use Hash Tables When:
+- You need the fastest possible lookups
+- Order doesn't matter
+- You have a good hash function
 
-Use Trees When:
--You need sorted data
--You need range queries
--You want guaranteed O(log n) performance
+## Use Trees When:
+- You need sorted data
+- You need range queries
+- You want guaranteed O(log n) performance
 
-Use Graphs When:
--You're modeling relationships
--You need path finding
--You're working with networks
+## Use Graphs When:
+- You're modeling relationships
+- You need pathfinding
+- You're working with networks
 
 =======================================================
 
-Memory Complexities
-Structure	Space	Notes
+# Memory Complexities
+## *Structure	Space	Notes*
 Array	O(n)	Contiguous memory
 LinkedList	O(n)	Extra pointers (next/prev)
 Hash Table	O(n)	Load factor affects performance
-Binary Tree	O(n)	Each node has pointers
+Binary Tree	O(n)	. Each node has pointers
 Graph	O(V+E)	Depends on representation
 
 =======================================================
