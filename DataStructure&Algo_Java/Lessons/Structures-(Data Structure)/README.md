@@ -1,4 +1,4 @@
-When to Choose Which Structure
+##When to Choose Which Structure
 
 Use Arrays When:
 -You know the maximum size in advance
