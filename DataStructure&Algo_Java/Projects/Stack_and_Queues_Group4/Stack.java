@@ -1,31 +1,29 @@
 // Stack.java
 public class Stack<T> {
-    private T[] stackArray;
-    private int top;
-    private int maxSize;
+    private T[] stackArray;  // Array to store items
+    private int top;         // Index of top element
 
     @SuppressWarnings("unchecked")
     public Stack(int arraySize) {
-        maxSize = arraySize;
-        stackArray = (T[]) new Object[maxSize];
+        stackArray = (T[]) new Object[arraySize];  // Generic array
         top = -1;
     }
 
-    // Push item to top
+    // Push a new item (LIFO)
     public void push(T newItem) {
-        if (top == maxSize - 1)
+        if (top == stackArray.length - 1)
             throw new RuntimeException("Stack is full");
         stackArray[++top] = newItem;
     }
 
-    // Pop item from top
+    // Pop the top item
     public T pop() {
         if (isEmpty())
             throw new RuntimeException("Stack is empty");
         return stackArray[top--];
     }
 
-    // Peek top item
+    // Peek at top item
     public T peek() {
         if (isEmpty())
             throw new RuntimeException("Stack is empty");
@@ -37,7 +35,16 @@ public class Stack<T> {
         return top == -1;
     }
 
-    // String representation
+    // Display content
+    public void display() {
+        System.out.print("Stack: [");
+        for (int i = 0; i <= top; i++) {
+            System.out.print(stackArray[i]);
+            if (i < top) System.out.print(", ");
+        }
+        System.out.println("]");
+    }
+
     public String toString() {
         StringBuilder sb = new StringBuilder("[");
         for (int i = 0; i <= top; i++) {
@@ -46,10 +53,5 @@ public class Stack<T> {
         }
         sb.append("]");
         return sb.toString();
-    }
-
-    // Display stack
-    public void display() {
-        System.out.println(this.toString());
     }
 }
