@@ -1,3 +1,5 @@
+
+
 /**
  * Generic doubly linked list implementation
  */
@@ -207,6 +209,7 @@ public class DoublyLinkedList<T> {
     /**
      * Get size of list - O(1)
      * return number of elements in list
+     * Additional
      */
     public int size() {
         return size;
