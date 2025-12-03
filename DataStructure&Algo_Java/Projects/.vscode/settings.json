@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Unordered_orderedArray_Generic",
+        "Unordered_OrderedArray",
+        "Stack_and_Queues_Group4",
+        "LinkedList&DoublyLinkedList",
+        "Iterator",
+        "ArrayVersion2.0/src",
+        "HashTable"
+    ]
+}
